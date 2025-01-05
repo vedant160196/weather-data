@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Weather Info</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+
+<body>
+    <header>
+        <h1>Weather Information for Farmers</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="weather">
+            <h2>Check Weather</h2>
+            <input type="text" id="location" placeholder="Enter your location (City, Country)" />
+            <button onclick="getWeather()">Get Weather</button>
+
+            <div id="weather-data"></div> <!-- Display fetched weather data here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Farmer Weather Info. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
